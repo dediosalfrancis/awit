@@ -1,0 +1,5 @@
+for i , v in pairs (workspace:GetDescendants()) do
+    if string.find(v.Name, "BillboardGui") then
+        v:Destroy()
+    end
+end
